@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Metro E-Learning: Exam Assessment</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <div class="clearfix">
+            <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+                <span class="float-start me-3"><img src="image/icon/metro-logo-01.jpg" alt="logo" style="width: 150px;"></span>        
+                <span class="navbar-brand mt-5">
+                    <p class="text-primary display-6 mb-3" style="line-height: 0;">E-Learning</p>
+                    <small class="text-body fw-normal" style="letter-spacing: 14px;">PLATFORM</small>
+                </span>
+            </a>
+        </div>
+
+        <button type="button" class="navbar-toggler me-2 px-2 rounded-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars text-primary"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="team.html" class="nav-item nav-link">Lecturer</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Course</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="courses.html" class="dropdown-item">IT Technology<i class="ps-5 fa fa-angle-right float-right"></i></a>
+                        <a href="#" class="dropdown-item">Programming<i class="ps-5 fa fa-angle-right float-right"></i></a>
+                  
+                        <a href="courses.html" class="dropdown-item">Strategy & Management</a>
+                        <a href="courses.html" class="dropdown-item">Artificial Intelligence</a>
+                        <a href="404.html" class="dropdown-item">Japanese<i class="ps-5 fa fa-angle-right float-right"></i></a>
+                        <a href="exam-assessment.html" class="dropdown-item">Examination<i class="ps-5 fa fa-angle-right float-right"></i></a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#login">Join Now<i class="fa fa-arrow-right ms-3"></i></a>            
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">Exam Assessment</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Course</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">IT Technology</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Exam Assessment</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Main Content -->
+    <div class="container mt-3">
+        <h1>Take the Exam</h1>
+        <h5 class="text-primary">Answer the following questions:</h5>
+        <form action="/action_page.php">
+        <!-- Question-01 Start-->
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Question 1</h5>
+                <p class="card-text">Which of the following is an appropriate usage of radio buttons in GUI applications?</p>
+                
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="q1" id="q1Option1" value="option1">
+                    <label class="form-check-label" for="q1Option1">
+                        To select multiple items from a group of items
+                    </label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="q1" id="q1Option2" value="option2">
+                    <label class="form-check-label" for="q1Option2">
+                        To select one item from a group of mutually exclusive items
+                    </label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="q1" id="q1Option3" value="option3">
+                    <label class="form-check-label" for="q1Option3">
+                        To select one item from a list or to enter new item into a text box 
+                    </label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="q1" id="q1Option4" value="option4">
+                    <label class="form-check-label" for="q1Option4">
+                        To select one item from a list that is displayed when a button is pressed 
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-- Question-01 End -->
+                
+        <!-- Question-02 Start-->
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Question 2</h5>
+                <p class="card-text">In theory, what color is printed by a printer, when cyan, magenta, and yellow are mixed together by a subtractive color mixture?</p>
+                
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="q2" id="q2Option1" value="option1">
+                    <label class="form-check-label" for="q2Option1">
+                        Blue
+                    </label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="q2" id="q2Option2" value="option2">
+                    <label class="form-check-label" for="q2Option2">
+                        Red
+                    </label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="q2" id="q2Option3" value="option3">
+                    <label class="form-check-label" for="q2Option3">
+                        Black 
+                    </label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="q2" id="q2Option4" value="option4">
+                    <label class="form-check-label" for="q2Option4">
+                        Green 
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-- Question-02 End -->
+
+        <!-- Question-03 Start-->
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Question 3</h5>
+                <p class="card-text">Which of the following is an appropriate concept of universal design?</p>
+                
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="q3" id="q3Option1" value="option1">
+                    <label class="form-check-label" for="q3Option1">
+                        Making products available to many people regardless of differences in age, culture, and ability as well as whether disability is present
+                    </label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="q3" id="q3Option2" value="option2">
+                    <label class="form-check-label" for="q3Option2">
+                        Ensuring that, once a product is designed, the design remains usable without being changed for a long period of time
+                    </label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="q3" id="q3Option3" value="option3">
+                    <label class="form-check-label" for="q3Option3">
+                        Making the design as simple and easy as possible in order to reduce the manufacturing cost
+                    </label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="q3" id="q3Option4" value="option4">
+                    <label class="form-check-label" for="q3Option4">
+                        Ensuring that products keep the same levels of performance and quality regardless of where they are manufactured in the world
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-- Question-03 End -->               
+
+        <!-- Submit Button -->
+            <div class="mb-3 mt-3">
+                <button type="reset"  class="btn btn-danger me-3">Clear Answers</button>
+                <button type="submit" class="btn btn-primary">Submit Answers</button>
+            </div>
+        </form>
+    </div> 
+
+    <!-- Registration Start -->
+    <div class="modal fade" id="registration">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Registration</h4>
+                    <button type="button" class="btn-close bg-primary" data-bs-dismiss="modal">  </button>
+                </div>
+
+                <!-- Modal body -->
+                <form action="/action_page.php" class="mx-4">
+                    <div class="mb-2 mt-2">
+                        <label for="name" class="form-label text-primary">Name:</label>
+                        <input type="type" class="form-control" id="name" placeholder="Enter name" name="name">
+                    </div>
+
+                    <div class="mb-2">
+                        <label for="phone" class="form-label text-primary">Phone:</label>
+                        <input type="phone" class="form-control" id="phone" placeholder="Enter phone no." name="phone">
+                    </div>
+                    
+                    <div class="mb-2">
+                      <label for="email" class="form-label text-primary">Email:</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div> 
+    
+                    <div class="mb-2">
+                      <label for="pwd" class="form-label text-primary">Password:</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                    </div>
+
+                    <div class="mb-3 mt-3">                                              
+                        <span>Please<a href="#" data-bs-toggle="modal" data-bs-target="#login"> Login </a>after registration.</span>                        
+                    </div>
+                    
+                    <div class="mb-2 mt-3">
+                        <button type="reset" class="btn btn-danger me-3">Clear</button>
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </div>
+                </form>                
+            </div>
+        </div>
+    </div>
+    <!-- Registration End -->
+
+    <!-- Login Start -->
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="btn-close bg-primary" data-bs-dismiss="modal">  </button>
+                </div>
+
+                <!-- Modal body -->
+                <form action="/action_page.php" class="mx-4">
+                    <div class="mb-2 mt-2">
+                      <label for="email" class="form-label text-primary">Email:</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div> 
+    
+                    <div class="mb-2">
+                      <label for="pwd" class="form-label text-primary">Password:</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                    </div>
+                        
+                    <div class="mb-3 mt-3">                                              
+                        <span>Please<a href="#" data-bs-toggle="modal" data-bs-target="#registration"> Register </a>unless our member.</span>                        
+                    </div>
+                    
+                    <div class="mb-2 mt-3">
+                        <button type="reset" class="btn btn-danger me-3">Clear</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>                
+            </div>
+        </div>
+    </div>
+    <!-- Login End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-1 mt-1 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-3">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>No. 53/62, L.L.Town Building A3F, Myanmar Gon Yi Street, Tharkayta, Yangon, Myanmar</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+095 09 262 007 800</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>mminfo@metro-myanmar.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>                
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Join Now</h4>
+                    <p>Please sign up for joining to our metro e-learning</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2" data-bs-toggle="modal" data-bs-target="#registration">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-9 text-center text-md-center mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#" style="color: yellow;">Metro IT & Japanese Language Centre</a>, All Right Reserved.
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="#" style="color: chartreuse;">9th Batch Student</a><br>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <!--
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    !-->
+    <a href="#" class="btn btn-primary border-2 border-white rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+    
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
